@@ -7,7 +7,7 @@ CasualMode:override({
       { Resource = "COAL", Quantity = 100 },
       { Resource = "IRON_ORE", Quantity = 100}
     },
-    ResourceProduced = {{ Resource = "COAL", Quantity = 5 }},
+    ResourceProduced = {{ Resource = "IRON", Quantity = 5 }},
     UpkeepPerWorker = {},
 })
 
