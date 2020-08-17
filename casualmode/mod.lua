@@ -1,23 +1,24 @@
 local CasualMode = foundation.createMod()
 
 -- Common Mod Resources --
-_Egg = "BV1_EGG"
 _Butter = "PV3_BUTTER"
-_Pastry = "PV3_PASTRY"
-_SheepMilk = "SHEEP_ADDITION_V4_MILK"
-_Mutton = "SHEEP_ADDITION_V4_MUTTON"
-_Dung = "DUNG_RESOURCE"
+_Candle = "CANDLE_RESOURCE"
+_Carcass = "CARCASS_RESOURCE"
+_Cattle = "CATTLE_RESOURCE"
 _Compost = "COMPOST_RESOURCE"
-_Poultry = "CHICKEN_RESOURCE"
-_Vegetable = "VEGETABLE_RESOURCE"
+_Dung = "DUNG_RESOURCE"
+_Egg = "BV1_EGG"
+_Feed = "FEED_RESOURCE"
 _Hat = "MARKET_ADDITION_V2_HAT"
 _Knife = "MARKET_ADDITION_V2_KNIFE"
-_Cattle = "CATTLE_RESOURCE"
-_Feed = "FEED_RESOURCE"
-_Carcass = "CARCASS_RESOURCE"
+_Mutton = "SHEEP_ADDITION_V4_MUTTON"
+_Pastry = "PV3_PASTRY"
 _Pig = "PIG_RESOURCE"
+_Poultry = "CHICKEN_RESOURCE"
 _Sheep = "SHEEP_RESOURCE"
-
+_SheepMilk = "SHEEP_ADDITION_V4_MILK"
+_Tallow = "TALLOW_RESOURCE"
+_Vegetable = "VEGETABLE_RESOURCE"
 
 -- Start
 CasualMode:log("[TUL] Loading Casual Mode")
@@ -34,6 +35,7 @@ CasualMode:dofile("scripts/berry-table.lua")
 CasualMode:dofile("scripts/brewery.lua")
 CasualMode:dofile("scripts/cheese-maker.lua")
 CasualMode:dofile("scripts/coal-hut.lua")
+CasualMode:dofile("scripts/cooperage.lua")
 CasualMode:dofile("scripts/dairy-farm.lua")
 CasualMode:dofile("scripts/fishing-hut.lua")
 CasualMode:dofile("scripts/granary.lua")
@@ -108,7 +110,9 @@ if (foundation.isModLoaded("162964c3-f084-4062-b7d4-7a50487f28ef")) then
   CasualMode:dofile("scripts/water-mill.lua")
 end
 
+-- Livestock Mod --
 if (foundation.isModLoaded("debb69c1-eb38-4183-9739-fbafa47568b4")) then
   CasualMode:log("[TUL] Overriding Livestock V2")
   CasualMode:dofile("scripts/livestock.lua")
+  CasualMode:dofile("scripts/chandlery.lua")
 end
