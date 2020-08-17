@@ -39,3 +39,9 @@ if (foundation.isModLoaded("fe9d3810-8afc-40e5-9fc9-bdbd3421e8cb")) then
       }
   })
 end
+
+-- Jobs
+CasualMode:override({
+  Id = "PV3_HEN_BREEDER"
+  JobName = "Hen Breeder"
+})
