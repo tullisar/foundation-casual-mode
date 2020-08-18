@@ -1,0 +1,22 @@
+{
+	"BUILDINGS": {
+		"PV3_HENHOUSE_NAME": "Hen House",
+		"PV3_CREAMERY_NAME": "Creamery",
+		"PV3_PASTRY_WORKPLACE_NAME": "Pastry"
+	},
+	"BUILDING_DESCRIPTIONS": {
+		"PV3_HENHOUSE_DESC": "Hen House",
+		"PV3_CREAMERY_DESC": "Creamery",
+		"PV3_PASTRY_WORKPLACE_DESC": "Pastry"
+	},
+	"RESOURCES": {
+		"PV3_BUTTER": "Butter",
+		"PV3_PASTRY": "Pastry"
+        },
+	"JOBS": {
+		"PV3_HEN_BREEDER_NAME": "Hen Breeder",
+		"PV3_HEN_BREEDER_DESC": "Hen Breeder",
+		"PV3_DAIRY_MAID_NAME": "Dairy Worker",
+		"PV3_DAIRY_MAID_DESC": "Dairy Worker"
+	}
+}

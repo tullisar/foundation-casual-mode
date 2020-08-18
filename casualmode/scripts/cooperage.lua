@@ -6,7 +6,7 @@ CasualMode:override({
     InputInventoryCapacity = {
       { Resource = "TOOL", Quantity = 100 },
       { Resource = "IRON", Quantity = 100},
-      { Resource = "PLANKS", Quantity = 100}
+      { Resource = "PLANK", Quantity = 100}
     },
     ResourceProduced = {{ Resource = "BARREL", Quantity = 10 }},
     UpkeepPerWorker = {},

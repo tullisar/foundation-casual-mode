@@ -9,6 +9,8 @@ CasualMode:override({
   }
 })
 
+_HenHouse = "Hen House"
+
 -- Building Function
 CasualMode:override({
     Id = "FUNCTION_PV3_PASTRY",
